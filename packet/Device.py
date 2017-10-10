@@ -23,6 +23,7 @@ class Device():
         self.user = data['user']
         self.ip_addresses = data['ip_addresses']
         self.facility = data['facility']
+        self.network_ports = data['network_ports']
 
     def update(self):
         params = {
